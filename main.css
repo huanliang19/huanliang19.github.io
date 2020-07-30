@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  background-color: #8C8C8C;
+}
+
+h1, h2, h3{
+  font-family: Arial;
+  margin-left: 150px;
+}
+
+ul.topnav {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: 1px solid #B7B9BD;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #4D4F54;
+  text-align: center;
+  padding: 20px 20px;
+  border-right: 1px solid #B7B9BD;
+  text-decoration: none;
+}
+
+ul.topnav li a.logo {
+  letter-spacing: 0.25em;
+}
+
+div{
+    padding-top: 100px;
+    margin: auto;
+    width: 60%;
+    font-size: 17px;
+}
+
+div.card{
+    padding-top: 0px;
+}
+
+div img{
+  float:left;
+  border: 4px ridge #C0C0C0;
+  border-radius: 16px;
+  display: block;
+  margin: 0px 20px 10px 0px;
+}
+
+div img.face {
+  float:left;
+  border: 8px outset #C0C0C0;
+  border-radius: 50%;
+  display: block;
+  margin: 0px 20px 10px 0px;
+}
+
+div p{
+  display:inline-block;
+  max-width: 750px;
+}
+
+div.card p{
+  display:inline-block;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 970px) {
+  ul.topnav li.logo {
+    float: none;
+  }
+
+  ul.topnav li.options {
+    width: 33%;
+  }
+
+  ul.topnav li a {
+    padding: 5px 20px
+  }
+
+  div img.face {
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
